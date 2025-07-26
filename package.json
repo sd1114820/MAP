@@ -1,0 +1,17 @@
+{
+  "name": "staticmap",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "canvas": "^2.11.2",
+    "mercator-projection": "^1.0.5",
+    "sphericalmercator": "^1.2.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
